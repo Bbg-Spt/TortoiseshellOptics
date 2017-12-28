@@ -67,3 +67,30 @@ header {
 .slogan h1 {
   margin: 1.5rem 5rem;
 }
+
+/* Middle Section Content */
+
+.content {
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content .services {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.services .service {
+  height: 8rem;
+  margin: 0 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.service img {
+  width: 5rem;
+  height: auto;
+  align-items: flex-start;
+}
